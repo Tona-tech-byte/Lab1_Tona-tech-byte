@@ -1,3 +1,17 @@
+"""
+engine.py  -  DO NOT EDIT
+============================================
+This file runs the little web server and keeps the information that the
+website shows. The web page itself lives in index.html.
+
+Functions students can use from road_simulation.py:
+    log(message, level)      show a message in the terminal AND on the website
+    set_time(seconds)        tell the engine what second it is
+    set_driver_name(name)    the name shown on the car
+    start_road_engine(road)  open the website and draw the road list
+    update_road(...)         draw the next frame (car position, speed, etc.)
+"""
+
 import os
 import time
 import json
